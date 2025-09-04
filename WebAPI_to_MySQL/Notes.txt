@@ -1,0 +1,25 @@
+﻿Connection String
+-----------------
+"ConnectionStrings": {
+  "DefaultConnection": "server=localhost;database=neurotechnexus;user=pgale;password=zSe$5RdXcFt^;"
+}
+
+
+Next recommended request:
+What are some best practices for handling user authentication and authorization in my WebAPI application?
+
+Completed Steps in WebAPI
+•	Entity and DbContext setup for roles, users, and subscriptions
+•	API endpoints for managing users, roles, and subscriptions
+•	Role assignment via RoleID and correct foreign key relationships
+•	Use of DTOs to control API input/output and avoid serialization issues
+
+June 4, 2025
+1.	Add a LoginDto.
+2.	Add an AuthController with a /login endpoint.
+3.	After validating credentials, add the user’s roles to the JWT claims as shown.
+
+
+Credentials for Swagger testing:
+UserName = Ogmios4
+Password = ywPP$3BX

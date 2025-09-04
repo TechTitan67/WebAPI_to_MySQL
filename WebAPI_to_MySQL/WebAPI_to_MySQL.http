@@ -1,0 +1,6 @@
+@WebAPI_to_MySQL_HostAddress = http://localhost:5197
+
+GET {{WebAPI_to_MySQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
